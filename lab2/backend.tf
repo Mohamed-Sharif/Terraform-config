@@ -3,6 +3,5 @@ terraform {
     bucket = "myterraformbucket12"
     key    = "terraform.tfstate"
     region = "us-east-1"
-    
   }
 }

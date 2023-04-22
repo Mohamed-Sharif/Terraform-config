@@ -23,15 +23,6 @@ variable "private_subnet_cidr_block" {
 }
 
 # Variables for the compute module
-variable "bastion_ami" {
-  type        = string
-  description = "The AMI ID for the bastion instance"
-}
-
-variable "app_ami" {
-  type        = string
-  description = "The AMI ID for the application instance"
-}
 
 variable "bastion_instance_type" {
   type        = string
