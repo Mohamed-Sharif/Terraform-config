@@ -29,3 +29,9 @@ variable "app_instance_type" {
   default     = "t2.micro"
 }
 
+variable "az1" {
+  type        = string
+}
+variable "az2" {
+  type        = string
+}
