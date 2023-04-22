@@ -11,12 +11,16 @@ This repository contains Terraform configurations to deploy the following infras
 - Bastion instance
 - Application instance
 - Key pair
+- RDS instance
+- ElastiCache Redis engine
 
 ## File Structure
 
 This repository is organized into two folders:
 - `basic-configuration`: contains the basic Terraform configuration to deploy the infrastructure.
 - `modules-configuration`: contains a modularized version of the Terraform configuration using modules and variables.
+  - Inside `modules-configuration`, there is a `ses` folder, which contains screenshots of the SES service mail and the Lambda function.
+  - Besides this configuration, there are two other configurations for an ElastiCache Redis engine and an RDS, and both of them are available under the `lab2/compute` module.
 
 ## Prerequisites
 
