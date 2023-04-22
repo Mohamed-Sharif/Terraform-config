@@ -33,3 +33,9 @@ variable "app_instance_type" {
   type        = string
   description = "The instance type for the application instance"
 }
+variable "az1" {
+  type        = string
+}
+variable "az2" {
+  type        = string
+}
